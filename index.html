@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Document</title>
+</head>
+<body>
+    <div class="container">
+      <h1>Fahrenheit to celsius is very Easy Here</h1>
+        <div class="box">
+            <h2>Fahrenheit to Celsius Converter</h2>
+            <form onsubmit="return false;">
+                <label for="temperature">Enter Temperature (°F):</label>
+                <input type="number" id="temperature" name="temperature" required>
+                <br>
+                <button onclick="convertToCelsius()">Convert</button>
+            </form>
+            <p id="result"></p>
+        </div>
+    </div>
+    
+</body>
+<script src="main.js"></script>
+</html>
